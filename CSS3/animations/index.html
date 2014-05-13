@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+width:100px;
+height:100px;
+background:red;
+-webkit-animation:inicial 5s; /* Chrome, Safari, Opera */
+animation:inicial 5s;
+}
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes inicial
+{
+from {background:red;}
+to {background:blue;}
+}
+ 
+/* Standard syntax */
+@keyframes inicial
+{
+from {background:red;}
+to {background:blue;}
+}
+</style>
+</head>
+<body>
+ 
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+ 
+<div></div>
+ 
+</body>
+</html>

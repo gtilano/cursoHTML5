@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+border:15px solid transparent;
+width:250px;
+padding:10px 20px;
+}
+ 
+#round
+{
+-webkit-border-image:url(border.png) 30 30 round; /* Safari 5 */
+-o-border-image:url(border.png) 30 30 round; /* Opera 10.5-12.1 */
+border-image:url(border.png) 30 30 round;
+}
+ 
+#stretch
+{
+-webkit-border-image:url(border.png) 30 30 stretch; /* Safari 5 */
+-o-border-image:url(border.png) 30 30 stretch; /* Opera 10.5-12.1 */
+border-image:url(border.png) 30 30 stretch;
+}
+</style>
+</head>	
+<div id="round">Esta es una capa redondeada.</div>
+<br>
+<div id="stretch">Esta es una capa estirada.</div>
+<body>
