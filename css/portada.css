@@ -1,0 +1,382 @@
+@charset "utf-8";
+
+/* LOGO PLÁTANOS
+h1 { background: url('http://estaticos.marca.com/deporte/img/v3.0/img_marca-com-platanos.png') no-repeat; float: left; height: 70px; margin: 8px 0 0 8px; width: 305px; }
+*/
+
+/* LOGO MARCA*/
+h1 { background: url('http://estaticos.marca.com/deporte/img/v3.0/img_marca-com.png') no-repeat; 
+background-position-x: 0% 0%;
+float: left; 
+height: 70px; 
+margin: 8px 0 0 8px; 
+width: 305px; }
+
+
+/*LOGO MARCA LUTO
+h1 { background: url('http://estaticos.marca.com/deporte/img/v3.0/img_marca-com-luto.png') no-repeat; float: left; height: 70px; margin: 8px 0 0 8px; width: 305px; }
+*/
+
+/*LOGO MARCA MADRID 2020
+h1 { background: url('http://estaticos.marca.com/deporte/img/v3.0/img_marca-com-jjoo5.png') no-repeat; float: left; height: 70px; margin: 8px 0 0 8px; width: 370px; }
+*/
+
+
+h1 span { visibility: hidden; }
+
+#barras { clear: both; margin: 0 auto; position: relative; width: 990px; }
+/*#cabecera-portada { clear: both; }*/
+#cabecera-portada .cont_cabecera { background-color: #fff; height: 80px; margin: 0 auto; overflow: hidden; position: relative; width: 990px; }
+
+#cabecera-portada .inf { float: right; width: 610px; }
+#cabecera-portada .inf .destacado { float: left; margin-left: 8px; padding: 15px 0 0 0; width: 195px; }
+#cabecera-portada .inf .destacado img { float: left; }
+#cabecera-portada .inf .destacado .titulo { font-size: 11px; font-weight: bold; margin: 0 0 .5ex 60px; }
+#cabecera-portada .inf .destacado .texto { font-size: 10px; margin-left: 60px; }
+#cabecera-portada .inf .destacado .texto a { color: #000; }
+#cabecera-portada .inf #promo_cabecera {float: left; margin-left: 8px; padding: 15px 0 0 0; width: 100px; }
+
+
+#contenedor-portada { background: #fff url('http://estaticos.marca.com/deporte/img/v3.0/fondo_extras.gif') right 0 repeat-y; clear: both; margin: 0 auto; width: 990px; }
+#contenido { float: left; padding-top: 10px; width: 737px; }
+#extras { border-top: 10px solid #fff; display: inline; float: right; padding: 10px 20px 0 10px; width: 220px; }
+#estructura-2col { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/1px_contenido.gif') repeat-y; border: 1px solid #dadada; display: inline-block; margin: 0 10px; width: 718px; }
+
+#contenido #colum1 { float: left; padding: 10px 0; width: 358px; }
+#contenido #colum2 { float: left; padding: 10px 0; width: 358px; }
+
+
+/* Apertura 3 columnas */  
+#apertura-3columnas { background-color: #fff; margin: 0 10px; width: 970px; padding-top:10px; }
+#apertura-3columnas p { color: #2D2D2D; display: block; font-size: 13px; line-height: 17px; margin: 0; padding: 5px 0; }
+#apertura-3columnas p.antetitulo{color:#999; text-transform: uppercase;}
+#apertura-3columnas .zona-firma { margin-top:10px; }
+#apertura-3columnas .contenido-3columnas { border: 1px solid #b1b3b4; padding: 10px 9px; }
+#contenedor-portada p.antetitulo { margin: 0 0 3px 0; padding: 0; }
+#apertura-3columnas .zona-firma .comenta .comentarios a { color:#fff; }
+#apertura-3columnas .foto { margin: 0 0 .75ex 0; z-index:0; }
+
+#contenedor-portada p.antetitulo {  }
+#contenedor-portada .apertura-2columnas.jjoo p.antetitulo, #contenedor-portada .apertura-2columnas.jjoo p.antetitulo, #contenedor-portada .principal.jjoo p.antetitulo, #contenedor-portada .secundaria.jjoo p.antetitulo  { background: url("http://estaticos.marca.com/deporte/img/v3.0/ico_jjoo.png") no-repeat scroll 0 0 transparent; padding-left: 40px; line-height:15px;  float:left; width:300px;}
+#contenedor-portada .apertura-2columnas.madrid2020 p.antetitulo, #contenedor-portada .apertura-2columnas.madrid2020 p.antetitulo, #contenedor-portada .principal.madrid2020 p.antetitulo, #contenedor-portada .secundaria.madrid2020 p.antetitulo  { background: url("http://estaticos.marca.com/deporte/img/v3.0/ico-madrid2020.jpg") no-repeat scroll 0 0 transparent; padding-left: 40px; line-height:19px;  float:left; width:300px;}
+#contenedor-portada .apertura-2columnas.jjoo p.antetitulo{ width:auto;float:none; }
+
+
+/*Agenda*/
+#bloque-agenda .contenido-agenda { background-color: #fff; padding-top: 5px; }
+#bloque-agenda .pestanas { border-left: none; height: auto; margin: 0; }
+#bloque-agenda .pestanas li { border: none; height: auto; }
+#bloque-agenda .contenido-agenda .pestanas li a { background-color: #bcbcbc; border: none; border-radius: 4px; -moz-border-radius: 4px; color: #ffffff; font-weight: bold; height: auto; margin: 0 0 5px 5px; padding: 2px 5px 3px; }
+#bloque-agenda .contenido-agenda .pestanas li a:hover { background-color: #da0717; text-decoration: none; }
+#bloque-agenda .contenido-agenda .pestanas li.marcado a { background-color: #797979; }
+#bloque-agenda .contenido-agenda .cont-agenda {
+	margin: 0 5px;
+}
+#bloque-agenda .contenido-agenda .informacion { border-bottom: 1px solid #d8d8d8; clear: both; overflow-y: auto; padding-bottom: 5px; }
+#bloque-agenda .contenido-agenda .informacion p.cintillohora { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/horaagenda.gif') no-repeat 0 3px; font-size: 11px; font-weight: bold; min-height: 20px; line-height: normal; margin-top: 5px; padding-top: 3px; text-transform: uppercase; }
+#bloque-agenda .contenido-agenda .informacion p.cintillohora span { color: #fff; display: inline-block; font-size: 10px; font-weight: bold; margin-right: 6px; padding-right: 2px; text-align: right; width: 35px; }
+#bloque-agenda .contenido-agenda .informacion p.cintillo {
+	font-size: 11px;
+	font-weight: bold;
+}
+#bloque-agenda .contenido-agenda .informacion img { float: left; margin-bottom: 5px; margin-right: 5px; position: relative; }
+#bloque-agenda .informacion p.titulo { font-size: 11px; line-height: 120%; margin-top: 2px; margin-bottom: 3px; }
+#bloque-agenda .contenido-agenda .informacion p.titulo a { text-decoration: none; }
+#bloque-agenda .contenido-agenda .informacion p.titulo a:hover { text-decoration: underline; }
+#bloque-agenda .contenido-agenda .informacion p.subtitulo { color: #333; font-size: 11px; line-height: 120%; }
+#bloque-agenda .contenido-agenda .informacion p.texto { font-size: 11px; }
+#bloque-agenda .contenido-agenda .informacion p.texto a { font-weight: bold; }
+#bloque-agenda .contenido-agenda .informacion p.cintillofecha {  font-size: 11px; font-weight: bold; min-height: 20px; line-height: normal; margin-top: 5px; padding-top: 3px; text-transform: uppercase; }
+#bloque-agenda .contenido-agenda .informacion p.cintillofecha span { background-color: #F00; color: #fff; display: inline-block; font-size: 10px; font-weight: bold; margin-right: 6px; padding-right: 2px; padding-left:2px; text-align: right;}
+
+
+/*Bloque destacado encuesta*/
+.bloque-destacado.encuesta-portada { margin-bottom: 10px; width: 340px; }
+#contenido .bloque-destacado.encuesta-portada h4 { /* Patrocinio de la encuesta */
+/*background: #000 url('http://estaticos.marca.com/deporte/img/v3.0/modulos/patrocinio-encuesta-portada.gif') no-repeat right top; min-height: 17px; padding-top: 4px;*/ }
+.bloque-destacado.encuesta-portada h5 { color: #da0717; font-size: 19px; margin-bottom: 1ex; }
+.bloque-destacado.encuesta-portada label { display: block; font-size: 14px; font-weight: bold; margin-bottom: .75ex; width: 235px; }
+.bloque-destacado.encuesta-portada div.botones { text-align: right; }
+.bloque-destacado.encuesta-portada div.botones input.boton { background-color: #000; border-radius: 4px; -moz-border-radius: 4px; color: #fff; cursor: pointer; float: left; font-size: 10px; margin-bottom: 5px; padding: 2px 10px; text-transform: uppercase; }
+.bloque-destacado.encuesta-portada div.botones span { text-align: right; }
+.bloque-destacado.encuesta-portada div.botones span a { font-size: 12px; line-height: 18px; padding: 0; text-decoration: none; }
+.bloque-destacado.encuesta-portada div.botones span a:hover,
+.bloque-destacado.encuesta-portada div.botones input.boton:hover { text-decoration: underline; }
+
+
+/*Bloque - Extras*/
+.bloque-extras .contenido-bloque-extras { background-color: #fff; display: inline-block; padding: 5px; }
+.bloque-extras .contenido-bloque-extras img { margin: 0 auto; }
+.bloque-extras .contenido-bloque-extras h3 { font-size: 20px; font-weight: bold; line-height: 20px; }
+.bloque-extras .contenido-bloque-extras p { color: #000; display: block; font-size: 12px; line-height: 14px; margin: 0; padding: 5px 0; }
+.bloque-extras .contenido-bloque-extras p a { font-weight: bold; }
+.bloque-extras .contenido-bloque-extras p span { float: right; text-align: right; margin-top: 15px; }
+.bloque-extras .contenido-bloque-extras p span a { color: #da0717; font-weight: bold; }
+
+/*Apaño Bloque - Extras Poker*/
+html body#portada div#contenedor div#contenedor-portada div#extras div#poker div div.bloque-extras { margin-bottom: 0px; margin-top: 1ex;}
+
+/*Extras*/
+#bloque-resultados,
+#bloque-agenda,
+.bloque-extras { margin-bottom: 1ex; }
+#apuestasdeportivas .bloque-extras { margin-bottom: 0; }
+
+/*Bloque destacado*/
+.bloque-destacado { clear: both; margin: 0 5px; padding: 5px; display: inline-block; }
+.bloque-destacado h3 { font-family: Tahoma, Geneva, sans-serif; font-size: 15px; font-weight: bold; line-height: 110%; }
+.bloque-destacado .modulo h3 a { display: block; }
+.bloque-destacado img { float: left; margin: 0 12px 5px 0; padding: 0; max-width:328px; }
+.bloque-destacado p { color: #000; font-size: 13px; line-height: 17px; margin-top: 2px; }
+.bloque-destacado p a { font-weight: bold; }
+.bloque-destacado .modulo { border-bottom: 1px solid #fff; clear: both; display: inline-block; margin: 10px 0 0 0; width: 100%; }
+.bloque-destacado .modulo p.antetitulo span { color: #999; display: block; font-size: 10px; line-height: 8px; padding-top: 3px; }
+.bloque-destacado .enlace { padding-top: 5px; }
+.bloque-destacado .enlace a:hover { text-decoration: underline; }
+.bloque-destacado .enlace a { background-color: #000; color: #fff; font-size: 12px; font-weight: normal; line-height: 24px; padding: 3px 6px; text-transform: uppercase; text-decoration: none; }
+
+
+/*Consola*/
+.consola { margin: 0 9px; }
+
+
+/*Lo mas*/
+.lomas { clear: both; margin: 0; padding: 5px; }
+.lomas .contenido-lomas { width: 340px; }
+.lomas ul.pestanas li a { padding: 9px 5px 0 5px; /*modificacion pestañas en lo más*//*modificacion pestañas en lo más*/ }
+
+
+/* Apertura a 2 col video */
+.apertura-2columnas .teledirecto,
+.apertura-2columnas .iframe_video { float: left; width: 380px; }
+.apertura-2columnas .juntotele { float: right; width: 305px; }
+.apertura-2columnas.foromarca { background: url('http://estaticos.marca.com/deporte/img/v3.0/logo_foromarca.gif') right top no-repeat; overflow: auto; }
+.apertura-2columnas.flumotion {overflow: auto; }
+.apertura-2columnas.reflector {overflow: auto; }
+.apertura-2columnas.marcasportscafe { background: url('http://estaticos.marca.com/deporte/img/v3.0/logo_marcasportscafe.jpg') right top no-repeat; }
+.apertura-2columnas.marcatv { background: url('http://estaticos.marca.com/deporte/img/v3.0/logo-marcatv.gif') right top no-repeat; overflow: auto; }
+#contenedor-portada .foromarca .antetitulo { margin-right: 80px; }
+#contenedor-portada .marcasportscafe .antetitulo,
+#contenedor-portada .marcasportscafe h2 { margin-right: 50px; }
+#contenedor-portada .marcatv .antetitulo { margin-right: 85px; }
+
+
+/*Multinoticias*/
+#multinoticias { background: #fff url('http://estaticos.marca.com/deporte/img/v3.0/fondo_multinoticias.gif') 0 10px no-repeat; clear: both; display: inline-block; height: 370px; margin: 0; padding: 20px 10px 0; width: 970px; }
+
+
+
+/* Zona inferior portada */
+#zona-inferior { background-color: #fff; clear: both; margin: 0 10px; padding: 10px 0; width: 970px; }
+#zona-inferior .contenido-inf { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/1px_zonainferior.gif') repeat-y 0 0; border: 1px solid #b1b3b4; overflow: auto; }
+#zona-inferior .contenido-inf .colum1-2 { float: left; width: 625px; }
+#zona-inferior .contenido-inf .colum1-2 .noticias-2columnas { background-color: #fff; clear: both; display: block; padding: 10px 0 0 0; position: relative; }
+#zona-inferior .contenido-inf .colum1-2 .colum1 { float: left; padding: 10px 9px; width: 290px; }
+#zona-inferior .contenido-inf .colum1-2 .colum2 { float: left; padding: 10px 0; width: 315px; }
+#zona-inferior .contenido-inf .colum3 { float: left; width: 340px; }
+#zona-inferior .secundaria .foto { float: left; margin: 0 10px .75ex 0; }
+#zona-inferior .secundaria p.antetitulo { color: #666; font-size: 12px; margin: 0 0 3px 0; padding: 0; text-transform: uppercase; }
+#zona-inferior .secundaria { margin: 0 9px; }
+#zona-inferior .secundaria h3 { font-size: 20px; font-weight: bold; line-height: 20px; margin-bottom: 0; }
+#zona-inferior .secundaria p { display: block; color: #000; font-size: 15px; line-height: 17px; margin: 0; padding: 5px 0; }
+#zona-inferior .secundaria h4 { font-size: 14px; line-height: 17px; }
+#zona-inferior .consola { margin: 0; }
+
+/* Zona inferior portada promos*/
+#zona-inferior-promos a { color: #000; text-decoration: none; }
+#zona-inferior-promos a:hover { color: #da0717; text-decoration: none; }
+#zona-inferior-promos { background-color: #fff; clear: both; margin: 0; padding: 0; width: 990px; }
+#zona-inferior-promos .barra-entuweb { clear: both; display: inline-block; height: 25px; padding: 10px; width: 970px; }
+#zona-inferior-promos .barra-entuweb ul { background-color: #e7e7e7; display: block; height: 25px; position: relative; width: 970px; }
+#zona-inferior-promos .barra-entuweb ul li { display: inline; float: left; font-size: 14px; height: 21px; }
+#zona-inferior-promos .barra-entuweb ul li a { color:#fff; }
+#contenedor-portada #zona-inferior-promos .barra-entuweb ul li a:hover { background-color: transparent; color: #fff; text-decoration: underline; }
+#zona-inferior-promos .barra-entuweb ul li.fnd1 { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/fnd_barra_portada1.gif') no-repeat; font-size: 12px; font-weight: bold; padding: 5px 0 0 10px; width: 159px; }
+#zona-inferior-promos .barra-entuweb ul li.fnd2 { background: #333 url('http://estaticos.marca.com/deporte/img/v3.0/fnd_barra_bolo.gif') right no-repeat; padding: 4px 10px 0; }
+#zona-inferior-promos .barra-entuweb ul li.fnd3 { background: #333 url('http://estaticos.marca.com/deporte/img/v3.0/fnd_barra_bolo.gif') right no-repeat; padding: 4px 10px 0; }
+#zona-inferior-promos .barra-entuweb ul li.fnd4 { background: #333 url('http://estaticos.marca.com/deporte/img/v3.0/fnd_barra_portada2.gif') right no-repeat; padding: 4px 14px 0 8px; }
+#zona-inferior-promos .barra-entuweb ul li.fnd5 { background: #c60 url('http://estaticos.marca.com/deporte/img/v3.0/fnd_barra_portada3.gif') right no-repeat; height: 21px; padding: 4px 12px 0 8px; }
+#zona-inferior-promos .barra-entuweb ul li.fnd6 { background-color: #e7e7e7; font-size: 14px; padding: 4px 0 0 30px; text-align: center; }
+#contenedor-portada #zona-inferior-promos .barra-entuweb ul li.fnd6 a { color: #666; }
+#contenedor-portada #zona-inferior-promos .barra-entuweb ul li.fnd6 a:hover { background-color: transparent; color: #073d5c; text-decoration: underline; }
+#zona-inferior-promos .promos { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/1px_fnd_promos_inf.gif') 10px 0 repeat-y; clear: both; display: inline-block; padding: 0 10px; width: 970px; }
+#zona-inferior-promos .promos .bloque-promo { float: left; margin: 0 10px; padding-bottom: 5px; width: 227px; }
+#zona-inferior-promos .promos .primero { margin: 0 10px 0 -5px; width: 475px; }
+#zona-inferior-promos .promos .objeto-tienda { border-bottom: 1px solid #eee; float: left; height: 95px; margin: 0 0 10px 5px; width: 232px; }
+#zona-inferior-promos .promos .ultimo { margin: 0 0 0 10px; }
+#zona-inferior-promos .promos ul.apoyos { display: block; padding-bottom: 10px; position: relative; }
+#zona-inferior-promos .promos img { margin: 5px; }
+#zona-inferior-promos .promos h6 { font-size: 15px; margin: 10px 3px 2px 10px; }
+#zona-inferior-promos .promos p { font-size: 11px; margin: 2px 3px 2px 10px; padding-bottom: 5px; }
+#zona-inferior-promos .promos .separacion { margin: 10px 0; }
+#zona-inferior-promos .promos ul.enlinea li { display: inline; float: left; font-size: 11px; margin: 0; width: 118px; }
+#zona-inferior-promos .primero img { float: right; margin: 5px 0 0 5px; }
+#zona-inferior-promos .primero h6 { font-family: Tahoma, Geneva, sans-serif; font-size: 11px; font-weight: bold; margin: 5px 0 0 10px; }
+#zona-inferior-promos #publi_abajo {
+	clear: both;
+	display: inline-block;
+	padding: 10px 4px;
+	width: 970px;
+}
+#zona-inferior-promos #publi_abajo .publi_izq { float:left; }
+#zona-inferior-promos #publi_abajo .publi_der { float:right; }
+
+
+/* Portada MARCA */
+.diario-marca { background-color: #fff; clear: both; padding: 10px 10px 0; }
+.diario-marca h2 { border-bottom: 1px solid #dadada; font-size: 40px; line-height: 100%; margin-left: 130px; padding-bottom: .5ex; }
+.contenido-diario-marca { background: #fff url('http://estaticos.marca.com/deporte/img/v3.0/fnd_hoy-diario-marca.png') 0 bottom repeat-x; border: 1px solid #dadada; overflow: auto; padding: 10px; }
+.diario-marca .cintillo { background-color: #000; color: #d6d6d6; height: 18px; margin-bottom: 15px; padding: 1px 0 0 10px; position: relative; }
+.diario-marca .cintillo h4 { font-size: 13px; text-transform: uppercase; }
+.diario-marca .cintillo ul { float: right; font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; padding-top: 6px; width: 125px; }
+.diario-marca .cintillo ul li { border-top: 1px solid #e5e5e5; margin-bottom: 2px; padding-top: 1px; text-align: right; }
+.diario-marca .cintillo ul li:first-child { border: none; }
+.diario-marca .cintillo ul li a { color: #000; display: inline-block; }
+.diario-marca .cintillo ul li.entumovil a { background: url('http://estaticos.marca.com/deporte/img/v3.0/ico_movil.png') right 0 no-repeat; height: 17px; padding: 7px 18px 0 0; }
+/*.diario-marca .cintillo ul li.enpdf a {
+	background: url('http://estaticos.marca.com/deporte/img/v3.0/ico_pdf.gif') no-repeat;
+}*/
+.diario-marca .cintillo ul li.enorbyt a { background: url('http://estaticos.marca.com/deporte/img/v3.0/ico_orbyt.png') right 0 no-repeat; height: 13px; padding: 2px 18px 0 0; }
+.diario-marca .portada { float: left; width: 124px; }
+.diario-marca .titulares { border-top: 1px solid #ffffff; border-bottom: 1px solid #dadada; margin-left: 130px; overflow: auto; padding: 1ex 0; width: 810px; }
+.diario-marca .titulares .titular { float: left; margin-right: 12px; width: 190px; }
+.diario-marca .titular h5 { color: #da0717; font-size: 13px; margin-bottom: .25ex; }
+.diario-marca .titular p { color: #666; font-size: 13px; }
+.diario-marca .titular p a { color: #000; }
+.diario-marca .firmas { border-top: 1px solid #ffffff; margin-left: 130px; padding-top: .5ex; }
+.diario-marca .firmas h5 { float: left; font-size: 15px; margin-right: .5em; }
+.diario-marca .firmas p { color: #666; font-family: Georgia, "Times New Roman", Times, serif; font-size: 13px; padding-top: .25ex; }
+
+/* Agregador eventos */
+.agrupador-eventos,
+.agrupador-eventos_derecha { border-bottom: 1px solid #eee; margin: 0 10px 1ex; padding-bottom: 1ex; }
+.agrupador-eventos h2,
+.agrupador-eventos_derecha h2 { font-size: 18px; line-height: 105%; margin-bottom: .5ex; }
+.agrupador-eventos h2 { margin-left: 45px; }
+.agrupador-eventos h4.cintillo a { color: #fff; }
+.agrupador-eventos h4.cintillo a:hover { color: #da0717; }
+.agrupador-eventos img { float: left; }
+#contenedor-portada .agrupador-eventos .antetitulo { font-size: 12px; margin: 0 0 .5ex 45px; }
+#contenedor-portada .agrupador-eventos .antetitulo a:hover { color: #da0717; }
+.agrupador-eventos .firma { margin-left: 45px; }
+.agrupador-eventos .firma .textofirma,
+.agrupador-eventos_derecha .firma .textofirma {
+	margin-right: .25em;
+}
+
+/* Todo sobre */
+.todo-sobre { background-color: #25adda; color: #fff; margin: 1ex 9px 2ex; padding: 0; position: relative; }
+.todo-sobre h3 { line-height: 100%; margin: 5px 5px .5ex; }
+.todo-sobre h3 a { color: #fff; }
+.todo-sobre h3 a:hover { color: #000; }
+#contenido .todo-sobre h4.cintillo { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/modulos/todo-sobre/todo-sobre.gif') no-repeat; border: none; height: 30px; margin: 0; }
+.todo-sobre h4 span { position: absolute; top: -999em; }
+.todo-sobre img { margin-left: 5px; }
+a.fan_button { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/iconos/community/fan_button.png') 0 -17px no-repeat; display: block; height: 17px; outline: none; position: absolute; right: 9px; text-indent: -999em; top: 8px; width: 74px; }
+a.fan_button:hover { background-position: 0 0; }
+a.fan_button.already { background: transparent url('http://estaticos.marca.com/deporte/img/v3.0/iconos/community/fan_button_already.png') 0 0 no-repeat; }
+a.fan_button.already:hover { background-position: 0 -17px; }
+a.unfan { font-size: 10px; left: 99px; margin: 10px 17px 0 0; position: absolute; }
+a.unfan:hover { background-color: transparent; color: #073d5c; text-decoration: underline; }
+.todo-sobre p { color: #fff; font-size: 14px; line-height: 105%; margin: 0 5px .5ex; }
+.todo-sobre .cont-modulo { padding: 10px 0 10px 6px; overflow: auto; }
+.todo-sobre .foto { background: none; float: left; margin: 0 0 0 5px; }
+
+/* Carrusel resultados */
+.home_pestanas { background-color: #000; border: 1px solid #dadada; clear: both; margin: 0 7px -1px 10px; padding-top: 5px; }
+#bloque_pestanas_marcadores ul { margin-left: 5px; }
+.tabcontenedor_carrusel { background-color: #fff; border-top: 1px solid #dadada; clear: both; margin-top: -1px; padding: 0 5px 5px; }
+.tabcontenedor_jornada_sup { padding-top: .5ex; }
+.tabcontenedor_carrusel .grupos ul li { float: left; font-size: 12px; margin-right: 15px; padding: 6px 0 2px; }
+.tabcontenedor_carrusel .grupos ul li a { color: #000; font-weight: bold; }
+.tabcontenedor_carrusel .grupos ul li.activa a { color: #da0717; cursor: default; }
+.tabcontenedor_carrusel .grupos ul li.activa a:hover { text-decoration: none; }
+.tabcontenedor_carrusel .jornada_marcador { clear: both; }
+.tabcontenedor_carrusel table.result { border-top: 1px solid #dadada; color: #666; float: left; font-size: 11px; margin-bottom: 1ex; width: 345px; }
+.tabcontenedor_carrusel table.sinborde { margin-left: 18px; }
+.tabcontenedor_carrusel .result .oculto { position: absolute; top: -999em; }
+.tabcontenedor_carrusel .result td { background-color: #fff; border-bottom: 1px solid #dadada; color: #000; padding: 1px 2px; }
+.tabcontenedor_carrusel .result .resultado { color: #fff; font-family: 'LatoBlack',Tahoma,Geneva,sans-serif; font-size: 12px; text-align: center; }
+.tabcontenedor_carrusel .result .resultado span { background-color: #dadada; display: block; font-weight: bold; padding: 1px 4px; }
+.tabcontenedor_carrusel .result .local { color: #666; padding-left: 3px; }
+.tabcontenedor_carrusel .result .visitante { color: #666; padding-right: 3px; text-align: right; }
+.tabcontenedor_carrusel .result .estado { font-size: 10px; text-align: center; }
+.tabcontenedor_carrusel .result .estado span { padding: 3px 4px; }
+.tabcontenedor_carrusel .result .enjuego .resultado span { background-color: #da0717; }
+.tabcontenedor_carrusel .result .cronica .resultado span,
+.tabcontenedor_carrusel .result .final .resultado span { background-color: #de8c8e; }
+.tabcontenedor_carrusel .pie_result { background-color: #fff; clear: both; font-size: 11px; padding: .5ex 5px; position: relative; }
+.tabcontenedor_carrusel .pie_result ul { position: absolute; right: 5px; top: .5ex; }
+.tabcontenedor_carrusel .pie_result li { display: inline; }
+.tabcontenedor_carrusel .pie_result li a { border-left: 1px solid #dadada; color: #666; font-size: 11px; font-weight: bold; padding: 0 2px 0 5px; text-decoration: none; }
+.tabcontenedor_carrusel .pie_result li:first-child a { border-left: none; }
+.tabcontenedor_carrusel .pie_result li a:hover { text-decoration: underline; }
+
+/* Promociones */
+.bloque_promociones { background-color: #fff; clear: both; padding: 10px; }
+.bloque_promociones .contenido-promociones { border: 1px solid #b1b3b4; padding: 10px 9px 0 10px; }
+.bloque_promociones h4 { position: relative; }
+.bloque_promociones h4 a { color: #da0717; font-size: 12px; font-weight: bold; padding-right: 5px; position: absolute; right: 5px; text-decoration: none; text-transform: none; top: auto; }
+.bloque_promociones h4 a:hover { text-decoration: underline; color: #fff; }
+.bloque_promociones .promociones { margin-left: -19px; overflow: auto; }
+.bloque_promociones .promociones .promocion { border: 1px solid #b1b3b4; float: left; margin: 0 0 10px 19px; position: relative; width: 100px; }
+.bloque_promociones .promociones .promocion img.img-promocion { height: 100px; width: 100px; }
+.bloque_promociones .promociones .marcapuntos { float: right; width: 221px; }
+.bloque_promociones .promociones .marcapuntos img.img-promocion { width: 221px; }
+.bloque_promociones .promociones .promocion img:hover { /*	opacity: 0.7; filter: alpha(opacity=70);*/ }
+.bloque_promociones .promociones .promocion p { color: #fff; font-size: 14px; line-height: 100%; padding: 5px 0; text-align: center; }
+.bloque_promociones .promociones .promocion p a { color: #fff; text-decoration: none; }
+.bloque_promociones .promociones .promocion p a:hover { color: #fff; text-decoration: underline; }
+.bloque_promociones .promociones .promocion .opacidad { background-color: #111; bottom: 0; left: 0; filter: alpha(opacity=80); opacity: 0.8; position: absolute; width: 100px; }
+.bloque_promociones .promociones .marcapuntos .opacidad { width: 221px; }
+
+/*Modulo Tecnopasion*/
+.noticia-bt-marca {
+margin:10px;
+display: block;
+}
+.noticia-bt-marca img.foto{
+margin:0 0 10px 0;
+}
+.noticia-bt-marca a.logo-medios {
+display:block;
+
+padding:2px 0;
+margin-bottom:5px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+background-color: #f8f8f8;
+background: -moz-linear-gradient(top, #ffffff , #b6b8b7);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#b6b8b7));
+text-align:center;
+width:338px;
+height:24px;
+float:left;
+}
+.noticia-bt-marca a.logo-medios img {
+margin:auto;
+}
+.noticia-bt-marca p {
+color: #2D2D2D;
+display: block;
+font-size: 13px;
+line-height: 17px;
+margin: 0 0 1ex;
+} 
+
+
+
+.buscador-neumaticos{
+	margin-left:15px;}
+	
+	
+div#contenedor-portada div#apertura-3columnas div.contenido-3columnas div.foto span.video {background: url("http://estaticos.marca.com/deporte/img/v3.0/video-gris970.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);}
+
+	
+div#contenedor-portada div#apertura-3columnas div.contenido-3columnas div.foto span.video:hover {background: url("http://estaticos.marca.com/deporte/img/v3.0/video-gris-hover970.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);}
+
+div#contenedor-portada div#apertura-3columnas div.contenido-3columnas span object{
+height:565px!important;
+width:950px!important;
+}
