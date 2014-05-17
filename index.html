@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <link href='css/font_monserrat.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/demo.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/freelancer.css" rel="stylesheet" type="text/css">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<title>MARCA.COM.CO</title>
 </head>
 <body id="page-top" class="index">
@@ -43,6 +43,8 @@
 							<li class="divider"></li>
 							<li class="dropdown-header">Preferidos</li>
 							<li><a class="pop" data-type="zoomin" href="#divpop3">Junior de Barranquilla</a></li>
+                            <li class="divider"></li>
+                            <li class="page-scroll"><a href="#quick">Noticias breves</a></li>
 						</ul>
 					</li>
                     <li class="page-scroll">
@@ -255,11 +257,38 @@
                         <br>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+                                <button id="alert" type="submit" class="btn btn-lg btn-success">Enviar</button>
                             </div>
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="quick">
+        <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Noticias Breves</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+        <div id="accordion">
+            <h3 class="btn-lg btn-success">Falcao se perderá el Mundial de Brasil, según "L'Équipe"</h3>
+            <div style="margin:0px 25px">
+                <p>De acuerdo con el diario francés, el próximo martes la Federación Colombiana de fútbol daría la noticia en rueda de prensa.</p>
+                <p>El atacante colombiano Radamel Falcao no llegará a tiempo para disputar el Mundial de Brasil, información que en los próximos días será comunicada por el médico de la selección de su país, según publica el diario francés "L'Équipe".</p>
+                <p>Lesionado en el ligamento cruzado de la rodilla izquierda el pasado 22 de enero en un partido de Copa de Francia con el Mónaco, el jugador no ha podido acelerar su recuperación para estar a las órdenes de José Pekerman a partir de junio próximo.</p>
+            </div>
+            <h3 class="btn-lg btn-success">Guía para acompañar a Junior</h3>
+            <div style="margin:0px 25px">
+                <p>Conozca los accesorios y recomendaciones clave para asistir mañana al estadio. Lo más importante es ir cómodo y ponerse el traje de la convivencia y la tolerancia.</p>
+                <p>Con el paso del Atlético Junior a la final del torneo apertura del Fútbol Profesional Colombiano, les presentamos las recomendaciones y accesorios que deben tener en cuenta los aficionados que van a acompañar al equipo mañana al estadio Metropolitano.</p>
+                <p>Aunque ser un buen hincha no siempre va en el atuendo, muchos seguidores exteriorizan esa pasión usando accesorios que intensifican ese entusiasmo que los embarga cada vez que los futbolistas salen al campo.</p>
+            </div>
+            <h3 class="btn-lg btn-success">Macnelly dice que no irá al Mundial</h3>
+            <div style="margin:0px 25px">
+                <p>A su llegada al país, el volante barranquillero anunció que no estará en la lista de los 23 seleccionados para el Mundial de Brasil. Mediante una comunicación telefónica, el técnico José Péerman le dio la noticia.</p>
+                <p>Ayer, en el aeropuerto El Dorado, en Bogotá, el volante barranquillero Macnelly Torres anunció que no hará parte de la lista definitiva de los 23 jugadores que estarán con la Selección Colombia en el Mundial de Brasil.</p>
             </div>
         </div>
     </section>
@@ -305,13 +334,31 @@
         </div>
     </footer>
  	<!-- Aca coloco todo mi js -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="js/freelancer.js"></script>
-    <script>!window.jQuery && document.write(unescape('%3Cscript src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script>
+        !window.jQuery && document.write(unescape('%3Cscript src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"%3E%3C/script%3E'))
+    </script>
     <script type="text/javascript" src="js/demo.js"></script>
+    <script src="js/jquery-ui-1.10.4.min.js"></script>
+    <script>
+        $(function() {
+            $( "#accordion" ).accordion();
+        });
+    </script>
+    <script src="js/bootbox.min.js"></script>
+    <script>
+        $(document).on("click", ".alert", function(e) {
+            bootbox.alert("Hello world!", function() {
+                console.log("Alert Callback");
+            });
+        });
+    </script>
 </body>
 </html>
