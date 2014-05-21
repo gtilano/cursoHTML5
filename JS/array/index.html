@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+var foo = [];
+ 
+foo.push( "a" );
+foo.push( "b" );
+foo.push( "c" );
+ 
+alert( foo[ 0 ] ); // a
+alert( foo[ 1 ] ); // b
+alert( foo[ 2 ] ); // c
+ 
+alert( foo.length ); // 3
+ 
+foo.pop();
+ 
+alert( foo[ 0 ] ); // a
+alert( foo[ 1 ] ); // b
+alert( foo[ 2 ] ); // undefined
+ 
+alert( foo.length ); // 2
+ 
+foo.unshift( "z" );
+ 
+alert( foo[ 0 ] ); // z
+alert( foo[ 1 ] ); // a
+alert( foo[ 2 ] ); // b
+ 
+alert( foo.length ); // 3
+ 
+foo.shift();
+ 
+alert( foo[ 0 ] ); // a
+alert( foo[ 1 ] ); // b
+alert( foo[ 2 ] ); // undefined
+ 
+alert( foo.length ); // 2
+</script>
+</body>
+</html>

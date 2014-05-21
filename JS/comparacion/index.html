@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// Comparison operators
+ 
+var foo = 1;
+var bar = 0;
+var baz = "1";
+var bim = 2;
+ 
+if(foo == bar){}; // false
+if(foo != bar){}; // true
+if(foo == baz){}; // true; but note that the types are different
+ 
+if(foo === baz){};             // false
+if(foo !== baz){};             // true
+if(foo === parseInt( baz )){}; // true
+ 
+if(foo > bim){};  // false
+if(bim > baz){};  // true
+if(foo <= baz){}; // true
+</script>
+</body>
+</html>

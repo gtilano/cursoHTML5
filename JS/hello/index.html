@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<h1>Hola  JS</h1>
+ 
+<p>Click sobre el boton.</p>
+ 
+<button type="button" onclick="myFunction()">Boton</button>
+ 
+<p id="demo"></p>
+ 
+<script>
+function myFunction() {
+	var fecha = new Date();
+    document.getElementById("demo").innerHTML = (fecha.getDate()) + "-" + (fecha.getUTCMonth() + 1) + "-" + fecha.getUTCFullYear();
+}
+</script>
+ 
+</body>
+</html> 

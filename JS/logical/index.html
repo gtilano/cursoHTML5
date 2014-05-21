@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// Do something with foo if foo is truthy.
+
+var foo = 1;
+var baz = 2;
+
+console.log("foo="+foo);
+console.log("baz="+baz);
+
+if(foo && baz) 
+{
+doSomething( foo );
+}
+// Set bar to baz if baz is truthy;
+// otherwise, set it to the return value of createBar()
+if( baz || foo){
+doSomething( baz );
+}
+
+function doSomething(foo){
+	alert(foo);
+	return;
+}
+</script>
+</body>
+</html>
